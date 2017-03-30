@@ -1,0 +1,11 @@
+{
+  // https://go.microsoft.com/fwlink/?LinkId=759670
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
