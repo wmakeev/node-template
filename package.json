@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Template for my personal node.js projects",
   "main": "index.js",
-  "typings": "typings/index.d.ts",
+  "typings": "index.d.ts",
   "files": [
     "lib/",
     "dist/",
@@ -36,14 +36,23 @@
   "engines": {
     "node": ">=4"
   },
+  "dependencies": {
+    "debug": "^2.6.3"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
-    "babel-preset-es2015-node4": "^2.1.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-function-name": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
+    "babel-plugin-transform-es2015-parameters": "^6.23.0",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.22.0",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.22.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.22.0",
     "babel-register": "^6.24.0",
     "blue-tape": "^1.0.0",
     "coveralls": "^2.12.0",
-    "debug": "^2.6.3",
     "dotenv": "^4.0.0",
     "eslint": "^3.18.0",
     "eslint-config-standard": "^7.1.0",
