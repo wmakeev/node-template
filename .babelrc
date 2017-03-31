@@ -1,9 +1,13 @@
 {
-  "presets": [
-    "es2015-node4"
-  ],
   "plugins": [
-    "transform-async-to-generator"
-  ],
-  "sourceMaps": false
+    "transform-async-to-generator",
+    "transform-es2015-function-name",
+    "transform-es2015-sticky-regex",
+		"transform-es2015-unicode-regex",
+		"transform-es2015-spread",
+		"transform-es2015-parameters",
+		"transform-es2015-destructuring",
+		"transform-es2015-shorthand-properties",
+		"transform-es2015-modules-commonjs"
+  ]
 }
