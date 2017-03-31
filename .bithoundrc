@@ -4,6 +4,6 @@
   ],
   "ignore": [
     "lib/**",
-    "dist"
+    "dist/**"
   ]
 }
