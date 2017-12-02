@@ -11,5 +11,5 @@ test('index', t => {
 test('index.run', async t => {
   t.equal(typeof nodeTemplate.run, 'function', 'should be function')
   let result = await nodeTemplate.run('one', 2)
-  t.equal(result, 'first arg is - one', 'should return "one"')
+  t.equal(result, 'first arg is - one ok!', 'should return "one"')
 })
