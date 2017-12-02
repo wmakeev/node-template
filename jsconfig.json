@@ -3,6 +3,7 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
+    // "checkJs": true,
     "allowSyntheticDefaultImports": true
   },
   "include": [

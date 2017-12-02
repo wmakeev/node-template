@@ -32,3 +32,4 @@ lib-cov
 
 #Other
 *.DS_Store
+package-lock.json
